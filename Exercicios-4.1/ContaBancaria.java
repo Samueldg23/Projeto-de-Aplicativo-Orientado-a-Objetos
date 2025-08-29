@@ -13,4 +13,9 @@ public class ContaBancaria {
     public double getSaldo() {
         return saldo;
     }
+
+    public String getNumeroConta() {
+        return numeroConta;
+
+    }
 }
