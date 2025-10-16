@@ -11,7 +11,7 @@ public class Main {
         Filme filme2 = new Filme("The Matrix", 1999, 136);
 
         livro.exibirInfo();
-        livro.exibirInfo(true);
+        livro.exibirInfo(true); 
         livro.reproduzir();
         System.out.println("Duração estimada do livro: " + livro.getDuracao() + " minutos\n");
         livro2.exibirInfo();
