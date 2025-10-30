@@ -6,6 +6,17 @@ public class Produto {
     private String descricao;
     private Double preco;
     private Integer quantidade;
+
+    public Produto() {
+    }
+
+    public Produto(String nome, String descricao, Double preco, Integer quantidade) {
+        this.nome = nome;
+        this.descricao = descricao;
+        this.preco = preco;
+        this.quantidade = quantidade;
+    }
+
     public Produto(Long id, String nome, String descricao, Double preco, Integer quantidade) {
         this.id = id;
         this.nome = nome;
